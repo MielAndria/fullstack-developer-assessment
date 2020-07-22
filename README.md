@@ -53,7 +53,6 @@
 * The solution will be opened in the Chrome browser and the functionality described above will be tests. Both positive and negative tests will be done against the solution.
 * Responsive layouts will be simulated using Chrome's developer tools.
 * The database scripts provided will be run against a local SQL Server database (we'll update the connection string to point to the appropriate database)
-* The solution will be installed in IIS
 * The two endpoints will be invoked, using Postman (https://www.getpostman.com/) to test the results returned. Both positive and negative tests will be executed
 
 ## How do I submit my solution?
