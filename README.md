@@ -18,9 +18,10 @@
 * Infrastructure: Dependency Injection
 * ORM: NHibernate or Entity Framework
 * Testing: xUnit or NUnit
-* JavaScript, jQuery, ReactJS
+* JavaScript, jQuery, ReactJS, & use a state management tool (Redux is recommended, but you are free to choose any library)
 * CSS(3)
 * HTML (if required)
+* Typescript(bonus) 
 
 * ***1. The Backend***
   * Using a Four Square library, hard code into the script a location/s.
