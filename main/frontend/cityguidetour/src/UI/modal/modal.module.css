@@ -1,0 +1,15 @@
+.Modal .ModalBody {
+    padding: 0;
+}
+  
+.Close {
+    cursor: pointer;
+}
+.modalImageBack {
+    position: absolute;
+    left: 10px;
+    top: -3px;
+    cursor: pointer;
+    z-index: 999;
+}
+  

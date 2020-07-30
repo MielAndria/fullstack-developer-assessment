@@ -1,0 +1,23 @@
+.pagination{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+}
+.pagination input{
+    opacity: 0;
+}
+.page{
+    width: 50px;
+    height: 23px;
+    border-radius: 50px;
+    background-color: #c9f84f;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 4px;
+}
+.page:hover,.activePage{
+    background-color: #df2d62;
+    color: white;
+}

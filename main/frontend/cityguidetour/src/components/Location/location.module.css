@@ -1,0 +1,54 @@
+.TileWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Tile{
+    width: 282px;
+    margin-bottom: 75px;
+}
+.TileImage{
+    width: 291px;
+    padding-bottom: 5px;
+}
+.TileImage img{
+    width: 282px;
+    height: 200px;
+    object-fit: cover;
+}
+.TileTitle{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.TileInfo{
+    padding: 20px;
+    border: 1px solid white;
+    font-family: MV Boli;
+}
+.notFound{
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-family: Courier New;
+}
+
+@media screen and (min-width: 1024px) {
+    .TileWrapper{
+        justify-content: space-between;
+        width: 1164px;
+    }
+
+    .TileInfo{
+        min-height: 120px;
+    }
+    .Tile{
+        width: 375px;
+        
+    }
+    .TileImage img{
+        width: 375px;
+        
+    }
+}

@@ -1,0 +1,85 @@
+.logoWrapper img{
+    width: 50px;
+}
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px;
+    
+}
+.authentification{
+    display: flex;
+    justify-content: flex-end;
+}
+.authentification a{
+    text-decoration: none;
+    color: white;
+}
+.information{
+    font-style: italic;
+    font-size: 9px;
+    text-align: right;
+}
+.login{
+    border: 1px solid #c9f84f;
+    padding: 4px 18px 4px 5px;
+    font-size: 12px;
+}
+.register{
+    padding: 4px 18px 4px 5px;
+    font-size: 12px;
+}
+.login:hover ,.register:hover{
+    border: 3px solid #df2d62;
+    background-color: #df2d62;
+}
+.register button , .login button{
+    opacity:0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.hello{
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+    padding-right: 9px;
+    font-family: MV Boli;
+}
+
+@media screen and (min-width: 768px) {
+    .logoWrapper img{
+      width: 100px;
+    }
+    .headerWrapper{
+        padding: 5px 34px 30px 0px;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .information{
+        font-size: 14px;
+    }
+    .login{
+        padding: 4px 50px 4px 38px;
+        font-size: 16px;
+    }
+    .register{
+        padding: 4px 50px 4px 38px;
+        font-size: 16px;
+    }
+    .authentification{
+        display: flex;
+        justify-content: unset;
+    }
+
+    .hello{
+        font-weight: 600;
+        font-size: 22px;
+        font-style: italic;
+        padding-right: 20px;
+    }
+    
+    
+        
+    
+}

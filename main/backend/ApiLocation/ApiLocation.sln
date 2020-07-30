@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLocation", "ApiLocation\ApiLocation.csproj", "{FB487F19-853C-49DA-B930-7FD229C8079A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestApiLocation", "XUnitTestApiLocation\XUnitTestApiLocation.csproj", "{CBB95467-AA90-4E7C-A48D-F2FA2203168C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB487F19-853C-49DA-B930-7FD229C8079A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB487F19-853C-49DA-B930-7FD229C8079A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB487F19-853C-49DA-B930-7FD229C8079A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB487F19-853C-49DA-B930-7FD229C8079A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB95467-AA90-4E7C-A48D-F2FA2203168C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB95467-AA90-4E7C-A48D-F2FA2203168C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB95467-AA90-4E7C-A48D-F2FA2203168C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB95467-AA90-4E7C-A48D-F2FA2203168C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68834EDF-451D-4470-B241-D640F988C71A}
+	EndGlobalSection
+EndGlobal

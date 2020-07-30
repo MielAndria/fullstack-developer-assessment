@@ -1,0 +1,39 @@
+
+.hotel::before,.restaurant::before,.park::before,.mall::before,.beach::before,.spa::before,.museum::before,.historical::before{
+    content:" ";
+    padding-right: 49px;
+    padding-bottom: 34px;
+}
+
+.hotel::before{
+    background-image: url('../../assets/category/hotel.svg');
+    background-repeat: no-repeat;
+}   
+.restaurant::before{
+    background-image: url('../../assets/category/dinner.svg');
+    background-repeat: no-repeat;
+}
+.park::before{
+    background-image: url('../../assets/category/park.svg');
+    background-repeat: no-repeat;
+}
+.mall::before{
+    background-image: url('../../assets/category/market.svg');
+    background-repeat: no-repeat;
+}
+.beach::before{
+    background-image: url('../../assets/category/beach.svg');
+    background-repeat: no-repeat;
+}
+.spa.beauty::before{
+    background-image: url('../../assets/category/beauty.svg');
+    background-repeat: no-repeat;
+}
+.museum::before{
+    background-image: url('../../assets/category/museum.svg');
+    background-repeat: no-repeat;
+}
+.historical.place::before{
+    background-image: url('../../assets/category/tourism.svg');
+    background-repeat: no-repeat;
+}

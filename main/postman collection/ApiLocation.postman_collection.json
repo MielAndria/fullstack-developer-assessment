@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "e887c7d3-3561-4c44-b507-bc00694cd29b",
+		"name": "ApiLocation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetLocationList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58815/api/locations?id=2&city=paris",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58815",
+					"path": [
+						"api",
+						"locations"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "city",
+							"value": "paris"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58815/api/Users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58815",
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58815/api/City",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58815",
+					"path": [
+						"api",
+						"City"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58815/api/Categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58815",
+					"path": [
+						"api",
+						"Categories"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

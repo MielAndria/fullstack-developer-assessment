@@ -1,0 +1,70 @@
+.Navigation{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    cursor: pointer;
+
+    width: 72px;
+    height: 58px;
+    padding-top: 20px;
+    margin-right: 3px;
+    margin-left: 2px;
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+.category:hover,.activeCategory{
+    background-color: white;
+    opacity: 0.75;
+}
+
+.categoryText{
+    display:none;
+}
+.ListLocationTitle{
+    font-family: Comic Sans MS;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.Navigation input{
+    opacity: 0;
+}
+
+.loaderWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .Navigation{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .category{
+        width: 221px;
+        height: 70px;
+        padding-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    
+    .categoryText{
+        display:block;
+        padding-top: 20px;
+        padding-left: 15px;
+        color: black;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .ListLocationTitle{
+        font-size: 32px;
+    }
+    
+}
